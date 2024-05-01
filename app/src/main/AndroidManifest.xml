@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyPicture"
+        tools:targetApi="31">
+        <activity
+            android:name=".DeportesGustosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RestaurantesComidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostreComidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlatoComidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntranteComidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MascotasPersonasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmigosPersonasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FamiliaPersonasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfesionalesPersonasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConceptosNumerosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConceptosColoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConceptosDosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerbosDosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConceptosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RopaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HogarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GustosActividadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BebidasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FrasesHechasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerbosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PartesCuerpoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EstadosAnimoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NecesidadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_personas"
+            android:theme="@style/Theme.MyPicture" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
